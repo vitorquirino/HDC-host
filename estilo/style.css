@@ -78,3 +78,41 @@ nav{
     font-size: 25px;
 }
 
+/*estilos do servicos*/
+.services-container{
+        padding: 5rem 0px;
+}
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.fas{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.fa-shield-alt{
+    color: #2cc76a;
+}
+.fa-rocket{
+    color: #ef3f29;
+}
+.fa-comments{
+    color: #ef8f29;
+}
+.services-container h3{
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bolder;
+}
+.services-container p{
+    line-height:24px;
+    width: 99%;
+}
+
