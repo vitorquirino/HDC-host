@@ -181,3 +181,50 @@ nav{
 .plans .recommended{
     background-color: #f45c57;
 }
+
+/* search domain */
+.searchdmain-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+}
+.searchdmain-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.searchdmain-container p{
+    color: #D5D5D5;
+    font-size: 24px;
+    margin-bottom: 25px ;
+}
+.searchdmain-container input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.searchdmain-container input[type="text"] {
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.searchdmain-container input[type="submit"] {
+    width: 20%;
+    padding: 15px;
+    font-size: 20px;
+}
+.searchdmain-container input[type="submit"]{
+    cursor: pointer;
+    background-color: #2cc76a;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    opacity: 0.3;
+    
+}
+.searchdmain-container input[type="submit"]:hover{
+    opacity: 1;
+}
+  
