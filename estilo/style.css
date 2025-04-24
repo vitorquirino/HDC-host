@@ -269,3 +269,78 @@ footer{
     font-weight: bold;
     margin: 20px 0 100px;
 }
+/* responsividade */
+
+/*small laptops, a partir de 1100px*/
+@media (max-width:1100px) {
+    .plans-container{
+        width: 95%;
+    }
+    .plans{
+        margin: 0 5px;
+    }
+}
+/*tablet 900px*/
+@media (max-width:900px){
+
+    .main-banner p{
+        padding: 0 6rem;
+    }
+    .searchdmain-container{
+        padding: 2rem 4rem;
+       
+    }
+}
+/* celular 576px*/
+@media (max-width:576px){
+    html,body{
+        overflow-x:hidden ;
+    }
+    .navbar-items li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .main-banner p{
+        padding: 0 2rem;
+    }
+    .plans-container{
+        flex-direction: column;
+        width: 80%;
+        padding: 0 2rem;
+        
+    }
+    .plans{
+        width: 100%;
+        max-width:100%;
+       margin-bottom: 15px;
+    }
+
+
+    .contact-container{
+        padding: 3rem;
+    }
+        
+    .contact-container input,
+    .contact-container textarea{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .services-container ul{
+        width: 80%;
+        flex-direction: column;
+    }
+    .searchdmain-container h2{
+       font-size: 25px;
+    }
+    .searchdmain-container p{
+        font-size: 16px;
+     }
+     .searchdmain-container input[type="text"]{
+        width: 100%;
+     }
+     .searchdmain-container input[type="submit"]{
+        width: 100%;
+     }
+    
+    
+}   
