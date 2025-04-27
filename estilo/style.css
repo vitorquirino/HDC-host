@@ -291,7 +291,7 @@ footer{
        
     }
 }
-/* celular 576px*/
+/*celular 576px*/
 @media (max-width:576px){
     html,body{
         overflow-x:hidden ;
